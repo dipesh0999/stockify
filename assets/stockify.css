@@ -4,22 +4,23 @@
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
 }
-html{
-    width: 1519px;
-    height: 100%;
-}
 #stockify{
     background-color: #02093F;
     color: white;
     height: 100%;
 }
 #hero{
-    width: 1200px;
+    width: 1440px;
+    padding: 0px 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
 }
 .navigation{
+    width: 1440px;
+    padding: 0px 150px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,7 +91,8 @@ a{
     color: #041049;
 }
 #feature{
-    width: 1200px;
+    width: 1440px;
+    padding: 0px 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 120px;
@@ -107,7 +109,8 @@ a{
     background-color: #121F62;
 }
 #analytics{
-    width: 1200px;
+    width: 1440px;
+    padding: 0px 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 120px;
@@ -153,7 +156,8 @@ a{
     line-height: 28px;
 }
 #access{
-    width: 1200px;
+    width: 1440px;
+    padding: 0px 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 120px;
@@ -199,7 +203,8 @@ a{
     line-height: 28px;
 }
 #feedback{
-    width: 1200px;
+    width: 1440px;
+    padding: 0px 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
@@ -248,7 +253,8 @@ a{
     line-height: 23px;
 }
 #participation{
-    width: 1200px;
+    width: 1440px;
+    padding: 0px 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 120px;
@@ -293,7 +299,8 @@ a{
     line-height: 39px;
 }
 #footer{
-    width: 1200px;
+    width: 1440px;
+    padding: 0px 150px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 100px;
@@ -337,17 +344,12 @@ a{
 }
 
 @media screen and (max-width: 499px) {
-    html{
-        width:100%
-    }
     #stockify{
         padding: 0px 30px;
     }
-    #hero{
-        width: 100%;
-        margin-bottom: 100px;
-    }
     .navigation{
+        width: 100%;
+        padding: 0px;
         padding-top: 20px;
         border-bottom: 2px solid white;
         padding-bottom: 30px;
@@ -362,6 +364,11 @@ a{
     .nav-1{
         display: flex;
         gap: 15px;
+    }
+    #hero{
+        width: 100%;
+        margin-bottom: 100px;
+        padding: 0px;
     }
     .contain{
         flex-direction: column;
@@ -383,6 +390,7 @@ a{
     #feature{
         width: 100%;
         margin-bottom: 70px;
+        padding: 0px;
     }
     .feature{
         border-bottom: 2px solid white;
@@ -396,6 +404,7 @@ a{
     #analytics{
         width: 100%;
         margin-bottom: 70px;
+        padding: 0px;
     }
     .analytics{
         flex-direction: column;
@@ -436,6 +445,7 @@ a{
     #feedback{
         width: 100%;
         margin-bottom: 70px;
+        padding: 0px;
     }
     .feedback{
         border-bottom: 2px solid white;
@@ -450,6 +460,7 @@ a{
     #participation{
         width: 100%;
         border-bottom: 2px solid white;
+        padding: 0px;
         padding-bottom: 50px;
     }
     .participation{
@@ -468,6 +479,7 @@ a{
     }
     #footer{
         width: 100%;
+        padding: 0px;
     }
     .footer-navigation{
         flex-direction: column;
@@ -477,9 +489,16 @@ a{
         border-bottom: 2px solid white;
         padding-bottom: 30px;
     }
+    .footer-nav-2{
+        padding-bottom: 30px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
     .footer-flex{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
+        flex-wrap: wrap;
         gap: 50px;
     }
     .submit-button{
