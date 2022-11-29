@@ -495,6 +495,9 @@ a{
         align-items: flex-end;
         flex-direction: column;
     }
+    .footer-nav-title{
+        text-decoration: underline;
+    }
     .footer-flex{
         display: flex;
         justify-content: flex-start;
